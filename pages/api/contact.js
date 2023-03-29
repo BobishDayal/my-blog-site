@@ -23,7 +23,7 @@ const handler = async (req, res) => {
 
     try {
       const url =
-        "mongodb+srv://Bobish_Dayal:2IlfbLNRbzIuM5h4@cluster0.d9l5fd0.mongodb.net/?retryWrites=true&w=majority";
+        "mongodb+srv://Bobish_Dayal:4u3Em4qfXHZrEMBw@cluster0.d9l5fd0.mongodb.net/?retryWrites=true&w=majority";
       client = new MongoClient(url);
       //const dbName = "blog-site";
       await client.connect();
